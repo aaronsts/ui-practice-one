@@ -5,6 +5,9 @@ module.exports = {
   purge: { enabled: purge, content: ["./build/**/*.html"] },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      staatliches: "Staatliches, cursive",
+    },
     extend: {},
   },
   variants: {
